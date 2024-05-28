@@ -8157,7 +8157,7 @@ wysihtml5.views.View = Base.extend(
           getTextContent  = function(element) {
             var textContent = wysihtml5.lang.string(dom.getTextContent(element)).trim();
             if (textContent.substr(0, 4) === "www.") {
-              textContent = "http://" + textContent;
+              textContent = "https://" + textContent;
             }
             return textContent;
           };
