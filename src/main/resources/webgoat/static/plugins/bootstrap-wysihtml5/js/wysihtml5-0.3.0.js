@@ -3980,7 +3980,7 @@ wysihtml5.browser = (function() {
       }
       // Add http prefix if necessary
       if (realUrl.substr(0, 4) === "www.") {
-        realUrl = "http://" + realUrl;
+        realUrl = "https://" + realUrl;
       }
 
       return '<a href="' + realUrl + '">' + displayUrl + '</a>' + punctuation;
