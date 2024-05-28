@@ -29,8 +29,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class MissingFunctionAC extends Lesson {
 
-  public static final String PASSWORD_SALT_SIMPLE = "DeliberatelyInsecure1234";
-  public static final String PASSWORD_SALT_ADMIN = "DeliberatelyInsecure1235";
+  public static final String PASSWORD_SALT_SIMPLE = "U2FsdGVkX1+CAE6oEn/RmRGGE/1xwZwP7zzCf4ykNXI=";
+  public static final String PASSWORD_SALT_ADMIN = "U2FsdGVkX1+CAE6oEn/RmRGGE/1xwZwP7zzCf4ykNXI=";
 
   @Override
   public Category getDefaultCategory() {
